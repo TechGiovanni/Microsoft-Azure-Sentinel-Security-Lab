@@ -14,7 +14,7 @@ You should expect very little or no cost at all due to the size of the data (~10
 - Network Documentation (Packet Tracer, GitHub)
 
 ### Modules
-- <a href="https://github.com/TechGiovanni/Microsoft-Azure-Sentinel-Security-Lab/blob/main/Module%201%20-%20Setting%20up%20the%20environment">Setting up the environment</a>
+- <a href="https://github.com/TechGiovanni/Microsoft-Azure-Sentinel-Security-Lab/blob/main/Module%201%20-%20Setting%20up%20the%20environment">Module 1 - Setting up the environment</a>
 - Setting up log Analytics Workspace
 - Setting up the Virtual Machine
 - Transforming the Logs
