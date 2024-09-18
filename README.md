@@ -1,32 +1,32 @@
-# Welcome to Microsoft Sentinel Analyst Lab
+## Welcome to Microsoft Sentinel Analyst Lab
 <img src="https://i.imgur.com/eQ5ykGc.png"/>
 
-## Objective
+### Introduction
 
-Today we are going to be setting up Azure Sentinel (SIEM) as well as a Virtual Machine (HoneyPot). The Virtual Machine will be super vulnerable to the internet, We will essentially monitor and Log the RDP Attacks form the different countries. 
+Today we are going to be setting up Azure Sentinel (SIEM) as well as a Virtual Machine which will be our (Honeypot). The Virtual Machine will be super vulnerable to the internet and we will essentially monitor and Log the RDP Attacks from the different countries. 
 
-This lab was designed to showcase my experience with Azure Sentinel (SIEM) and creating a Honeypot. 
+The lab deploys a Microsoft Sentinel workspace and ingests event logs from the Vitual machine (honeypot) to showcase various types of attacks that are hitting this VM and also to showcase Microsoft Sentinel features. 
+You should expect very little or no cost at all due to the size of the data (~10 MB), and the fact that Microsoft Sentinel offers a 30-day free trial on new workspaces.
 
-### Skills Learned
-- Exposure to Microsoft Sentinel SIEM, capabilities and practical application.
-- Log transformation
-
-### Tools Used
-- (Snort, Suricata, PfBlockNG) Security Information and Event Management (SIEM) system log ingestion, Analysis and Blocking Malicious IPs.
+### Prerequisites
+- Microsoft Azure subscription
 - Network analysis tools (Wireshark, Advanced IP Scanner) for capturing and examining network traffic.
 - Network Documentation (Packet Tracer, GitHub)
-- Firewall tool (Pfsense) for protecting the network.
-- Cisco Router (csr1000v) for routing packets
-- Windows 11 Ent Client for client machines
-- Windows 2016 Core Server for DHCP, DNS and WINS IP configurations to client machines as well as Windows Server as a Router
-- Windows 2016 GUI Server for managing the network (Router, Firewalls, and computers)
 
-### Features
-- VPN that is setup to be Point-to-Point.
-- Active Directory Domain Service (Forest and Child Domain), Redundant Domain Controllers for Authentication, Authorization and Availability. 
-- Pfsense Firewall and created Firewall Rules, blocking unnecessary ports.
-- Routing rules Blocking specific Ip Addresses.
-- Hyper-V Virtualization using Virtual Network Adapters to connect all Virtual Machines in this lab.
+### Modules
+- Setting up the environment
+- Setting up log Analytics Workspace
+- Setting up the Virtual Machine
+- Transforming the Logs
+- Setting up Sentinel workspace and the Map
+
 
 ### Resources
 https://techgiovanni1.imgur.com/all
+
+### Diagram of the big picture
+<img src="https://i.imgur.com/YePDPAK.png"/>
+
+
+
+
