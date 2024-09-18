@@ -1,4 +1,4 @@
-# Welcome to Microsoft Sentinel Honeypot Security Lab
+# Welcome to Microsoft Sentinel Analyst Lab
 <img src="https://i.imgur.com/eQ5ykGc.png"/>
 
 ## Objective
