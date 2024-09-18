@@ -14,11 +14,11 @@ You should expect very little or no cost at all due to the size of the data (~10
 - Network Documentation (Packet Tracer, GitHub)
 
 ### Modules
-- <a href="https://github.com/TechGiovanni/Microsoft-Azure-Sentinel-Security-Lab/blob/main/Module%201%20-%20Setting%20up%20the%20environment">Module 1 - Setting up the environment</a>
-- Setting up log Analytics Workspace
-- Setting up the Virtual Machine
-- Transforming the Logs
-- Setting up Sentinel workspace and the Map
+- <a href="https://github.com/TechGiovanni/Microsoft-Azure-Sentinel-Security-Lab/blob/main/Module%201%20-%20Setting%20up%20the%20environment" target=”_blank”>Module 1 - Setting up the environment</a>
+- <a href="https://github.com/TechGiovanni/Microsoft-Azure-Sentinel-Security-Lab/blob/main/Module%201%20-%20Setting%20up%20the%20environment" target=”_blank”>Module 2 - Setting up log Analytics Workspace</a>
+- <a href="https://github.com/TechGiovanni/Microsoft-Azure-Sentinel-Security-Lab/blob/main/Module%201%20-%20Setting%20up%20the%20environment" target=”_blank”>Module 3 - Setting up the Virtual Machine</a>
+- <a href="https://github.com/TechGiovanni/Microsoft-Azure-Sentinel-Security-Lab/blob/main/Module%201%20-%20Setting%20up%20the%20environment" target=”_blank”>Module 4 - Transforming the Logs</a>
+- <a href="https://github.com/TechGiovanni/Microsoft-Azure-Sentinel-Security-Lab/blob/main/Module%201%20-%20Setting%20up%20the%20environment" target=”_blank”>Module 5 - Setting up Sentinel workspace and the Map</a>
 
 
 ### Resources
