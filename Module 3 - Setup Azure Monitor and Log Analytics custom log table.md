@@ -62,6 +62,9 @@ Prerequisites You must have a Microsoft Azure subscription and have completed Mo
   <img src="https://i.imgur.com/I6MGlmw.png"/>
 </p>
 
+
+
+
 ## Exercise 2: Create Custom Log using Log Analytics
 
 ### Objective
