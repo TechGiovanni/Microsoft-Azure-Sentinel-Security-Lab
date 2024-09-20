@@ -109,7 +109,7 @@ In this section we will use Powershell to extract the security logs that we can 
   <img src="https://i.imgur.com/zCxP7qd.png"/>
 </p>
 
-20. Signup to <a href="https://app.ipgeolocation.io/login">IPGeolocaton.io</a>. Get a freee API key.
+20. Signup to <a href="https://app.ipgeolocation.io/login">IPGeolocaton.io</a>. Get a freee API key. This allows for 1000 API calls per day.
 
 *Note:* this can be done on any computer, The VM or your Personal Computer.
 
@@ -163,9 +163,10 @@ In this section we will use Powershell to extract the security logs that we can 
   <img src="https://i.imgur.com/TZIlXMo.png"/>
 </p>
 
+29. If we go back to Powershell, we should now see puple texts which are people trying to do some form of attack to get into our virtual machine.
 
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/Yz3YtHC.png"/>
 </p>
 
 
