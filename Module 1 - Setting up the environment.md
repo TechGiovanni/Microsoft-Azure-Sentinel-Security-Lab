@@ -140,17 +140,80 @@ The purpose of Log analytics is to inject logs form the virtual machine. We will
 <li><strong>Name:</strong> log-analytics-workspace-honeypot</li>
 </ul>
 
-23. 
+23. Click <strong>Review + create</strong> and then <strong>Create</strong> after the validation completes. The creation takes a few seconds.
 
 <p align="center">
   <img src="https://i.imgur.com/iIeIxkO.png"/>
 </p>
 
+
+## Exercise 3: Setup Microsoft Defender for Cloud
+
+### Objective
+
+We will enable the ability to gather logs from the Log Analytics Workspace.
+
+24. Type <strong>Microsoft Defender for Cloud</strong> and then click <strong>Microsoft Defender for Cloud</strong> under Services.
+
 <p align="center">
-  <p>Ref : </p>
-  <img src=""/>
-  <p></p>
+  <img src="https://i.imgur.com/zX6WCb5.png"/>
 </p>
+
+25. Click <strong>Management</strong> on the left widget window.
+26. Then click <strong>Environment settings</strong>.
+
+<p align="center">
+  <img src="https://i.imgur.com/b6SeSk3.png"/>
+</p>
+
+27. Click the dropdown arrows until you see your log analytics workspace. click your <strong>log analytics workspace-honeypot</strong> option.
+
+<p align="center">
+  <img src="https://i.imgur.com/z8zHzMn.png"/>
+</p>
+
+28. Enable thse Defender Plans:
+
+<ul>
+<li><strong>Foundational CSPM:</strong> On</li>
+<li><strong>Servers:</strong> On</li>
+<li><strong>SQL servers on machines:</strong> Off</li>    
+</ul>
+   
+<p align="center">
+  <img src="https://i.imgur.com/YxhHeyG.png"/>
+</p>
+
+
+
+<p align="center">
+  <img src=""/>
+</p>
+
+<p align="center">
+  <img src=""/>
+</p>
+
+<p align="center">
+  <img src=""/>
+</p>
+
+
+## Exercise 4: Setup Microsoft Sentinel
+
+### Objective
+
+We will enable the ability to gather logs from the Log Analytics Workspace.
+
+24. Type <strong>Microsoft Sentinel</strong> and then click <strong>Microsoft Sentinel</strong> under Services.
+
+<p align="center">
+  <img src="https://i.imgur.com/osGttJZ.png"/>
+</p>
+
+
+25. 
+
 
 <p align="center">
   <p>Ref : </p>
