@@ -28,13 +28,39 @@ Prerequisites You must have a Microsoft Azure subscription and have completed Mo
 </p>
 
 6. Click <strong>Review + create</strong> and then <strong>Create</strong> after the validation completes. The creation takes a few seconds.
-7.  Refresh and the Endpoint should be created
+7.  Refresh and the Endpoint should be created.
+8.  Click the endpoint <strong>custom-honeypot-log</strong>.
 
 <p align="center">
   <img src="https://i.imgur.com/Rigt3M9.png"/>
 </p>
 
 
+8. We will connect the virtual machine resourse. Currently we have no resources connected to the Azure Monitor, showing at the top right under Essentials.
+9. We can click either <strong>View resources</strong> or <strong>Resources</strong> under Configuration Tab on the left.
+
+<p align="center">
+  <img src="https://i.imgur.com/cFbX5Qa.png"/>
+</p>
+
+10. Click the + Add button. 
+
+<p align="center">
+  <img src="https://i.imgur.com/aN5DFNA.png"/>
+</p>
+
+11. Choose your Vitual Machine from the dropdown.
+12. Click <strong>Apply</strong> at the bottom.
+
+<p align="center">
+  <img src="https://i.imgur.com/gRouq53.png"/>
+</p>
+
+13. We now have these notifications suggesting the Vm is now connected to our Data Collection Rule.
+
+<p align="center">
+  <img src="https://i.imgur.com/I6MGlmw.png"/>
+</p>
 
 ## Exercise 2: Create Custom Log using Log Analytics
 
