@@ -1,6 +1,6 @@
 # Module 1 - Setting up the environment
 
-### Objectives
+## Objectives
 This module guides you through the initial setup of the environment that will be used in all subsequent modules.
 
 Prerequisites
@@ -11,7 +11,7 @@ Permissions to create a resource group in your Azure subscription
 Note: Installing Sentinel for the very first time in a Subscription needs Subscription Contributor or Owner permission
 
 
-Exercise 1: The Create our resource group and workspaces
+## Exercise 1: The Create our resource group and workspaces
 
 1. Navigate to the Azure Portal and log in with your account.
 
