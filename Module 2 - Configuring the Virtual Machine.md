@@ -117,46 +117,55 @@ In this section we will use Powershell to extract the security logs that we can 
   <img src="https://i.imgur.com/DOOPP0I.png"/>
 </p>
 
-22. 
+21. Copy your API Key.
+     
+*Note:* My API key will be deleted after this Lab.
+
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/pwHPmZT.png"/>
 </p>
 
+22. Paste your API Key in the Powershell Script. and run the Powershell script.
+
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/Lpzz8iW.png"/>
 </p>
 
+23. To find the output file, We will simple unhide hidden files and folders.
+24. Type <strong>Control</strong> in the Search at the bottom of windows.
+
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/exD4ORb.png"/>
 </p>
 
+25. Click <strong>Small icons</strong> in the View by dropdown at the top right then click <strong>File Explorer Options</strong>.
+
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/EWHcnDe.png"/>
+</p>
+
+26. In the <strong>View</strong> tab, scroll down until you see <strong>Hidden files and folders</strong>. Click the radio button for <strong>Show hidden files, folders, and drives</strong>.
+27. Click <strong>Apply</strong> then <strong>OK</strong>.
+
+<p align="center">
+  <img src="https://i.imgur.com/LnRxZEq.png"/>
+</p>
+
+27. Now go to <strong>File explorer</strong> and then <strong>This PC</strong>, then click <strong>Windows (C:)</strong>, now click <strong>Program Data</strong>.
+
+<p align="center">
+  <img src="https://i.imgur.com/mqrAtXG.png"/>
+</p>
+
+28. Now we can see out output file from the log_extracter.ps1 powershell script.
+
+<p align="center">
+  <img src="https://i.imgur.com/TZIlXMo.png"/>
 </p>
 
 
 <p align="center">
-  <p>Ref 1: </p>
   <img src=""/>
-  <p></p>
-</p>
-
-<p align="center">
-  <p>Ref 1: </p>
-  <img src=""/>
-  <p></p>
-</p>
-
-<p align="center">
-  <p>Ref : </p>
-  <img src=""/>
-  <p></p>
-</p>
-
-<p align="center">
-  <p>Ref : </p>
-  <img src=""/>
-  <p></p>
 </p>
 
 
