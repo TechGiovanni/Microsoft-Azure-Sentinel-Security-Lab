@@ -6,7 +6,7 @@ This module guides you through the process of updating the firewall, using remot
 
 Prerequisites You must have a Microsoft Azure subscription and have completed Module 1 as this project builds from the previous module.
 
-Exercise 1: Virtual Machine setup
+## Exercise 1: Virtual Machine setup
 
 1. From your actual windows computer, type <strong>Remote Desktop</strong> and click <strong>Remote Desktop Connection</strong>. 
 
