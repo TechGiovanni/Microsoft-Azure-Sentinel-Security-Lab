@@ -112,18 +112,22 @@ Note: Installing Sentinel for the very first time in a Subscription needs Subscr
   <img src="https://i.imgur.com/WhfLdxl.png"/>
 </p>
 
-18. Click <strong>Add</strong> at the bottom of the window, then click <strong><OK/strong> at the bottom left of the CReate network security group window.
-19. 
+18. Click <strong>Add</strong> at the bottom of the window, then click <strong>OK</strong> at the bottom left of the Create network security group window.
+19. Click <strong>Review + create</strong> and then <strong>Create</strong> after the validation completes. The creation takes a few seconds.
 
 
+## Exercise 2: Create Log Analytics Workspace
+
+20. Click <strong>resource groups</strong> then click your resource group<strong>"Honeypotlab"</strong> then click <strong>Create</strong>.
+21. type log analytics
 
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/gencX1b.png"/>
 </p>
 
 <p align="center">
   <p>Ref 1: </p>
-  <img src=""/>
+  <img src="https://i.imgur.com/TYb0TfB.png"/>
   <p></p>
 </p>
 
