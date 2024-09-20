@@ -35,7 +35,7 @@ Note: Installing Sentinel for the very first time in a Subscription needs Subscr
   <img src="https://i.imgur.com/Z108lSy.png"/>
 </p>
 
-7.We will be creating a Virtual machine resource. Click <strong>Create Resource</strong>
+7. We will be creating a Virtual machine resource. Click <strong>Create Resource</strong>
 
 <p align="center">
   <img src="https://i.imgur.com/Y0wfA6g.png"/>
@@ -50,12 +50,12 @@ Note: Installing Sentinel for the very first time in a Subscription needs Subscr
 9. In the Create a virtual machine page, fill out the form as follows:
 
 <ul>
-<li>Subscription: choose the Azure subscription where you would like to deploy the Microsoft Sentinel workspace</li>
-<li>Resource Group: select the existing resource group or create a new resource group (recommended) that will host the lab resources</li>
-<li>Virtual machine name: choose a name for your virtual machine, I will call it <strong>Honeypot-vm</strong> </li>
-<li>Region: from the drop down, select the Azure region where the lab will be located. recommend the same as the resource group</li>
-<li>Image: <strong>Windows 10 Pro, version 22H2 - x64 Gen2</strong></li>
-<li>Size: <strong>Standard_D2s_v3 - 2 vcpus, 8 GiB memory ($70.08/month)</strong></li>
+<li><strong>Subscription:</strong> choose the Azure subscription where you would like to deploy the Microsoft Sentinel workspace</li>
+<li><strong>Resource Group:</strong> select the existing resource group or create a new resource group (recommended) that will host the lab resources</li>
+<li><strong>Virtual machine name:</strong> choose a name for your virtual machine, I will call it <strong>Honeypot-vm</strong> </li>
+<li><strong>Region:</strong> from the drop down, select the Azure region where the lab will be located. recommend the same as the resource group</li>
+<li><strong>Image:</strong> <strong>Windows 10 Pro, version 22H2 - x64 Gen2</strong></li>
+<li><strong>Size:</strong> <strong>Standard_D2s_v3 - 2 vcpus, 8 GiB memory ($70.08/month)</strong></li>
 </ul>
 
 <p align="center">
@@ -65,8 +65,8 @@ Note: Installing Sentinel for the very first time in a Subscription needs Subscr
 10.Scroll down to fill out the other sections in the Administrative account fields.
 
 <ul>
-<li>Username: <strong><yourname>admin</strong></li>
-<li>Password: select the password you will be using to log into the virtual machine</li>
+<li><strong>Username:</strong> <strong><yourname>admin</strong></li>
+<li><strong>Password:</strong> select the password you will be using to log into the virtual machine</li>
 </ul>
 
 11. Click the <strong>I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.</strong> in the Licensing section.
@@ -76,36 +76,49 @@ Note: Installing Sentinel for the very first time in a Subscription needs Subscr
 </p>
 
 12. Click <strong>Networking</strong> tab.
-13. NIC network security group: Select <strong>Advanced</strong>.
-14. Configure network security group: Click <strong>Create new</strong>.
+13. <strong>NIC network security group:</strong> Select <strong>Advanced</strong>.
+14. <strong>Configure network security group:</strong> Click <strong>Create new</strong>.
 
 <p align="center">
   <img src="https://i.imgur.com/CkDUmqn.png"/>
 </p>
 
-15. Delete the Inbound rule that was automatically created
+15. Delete the Inbound rule that was automatically created.
 
 <p align="center">
   <img src="https://i.imgur.com/JRykqDc.png"/>
 </p>
 
-16. Click <strong>+ Add an inbound rule</strong>
+16. Click <strong>+ Add an inbound rule</strong>, to create a new rule.
 
 <p align="center">
   <img src="https://i.imgur.com/v43O9Op.png"/>
 </p>
 
-17. 
+17. We will make our Virtual machine super vulnerable. So we will allow:
+<ul>
+<li><strong>Source:</strong> Any</li>
+<li><strong>Source port ranges:</strong> *</li>
+<li><strong>Destination:</strong> Any</li>
+<li><strong>Service:</strong> Custom</li>
+<li><strong>Destination port ranges:</strong> *</li>
+<li><strong>Protocol:</strong> *</li>
+<li><strong>Action:</strong> Allow</li>
+<li><strong>Priority:</strong> 100</li>
+<li><strong>Name:</strong> AllowAnyInbound</li>
+</ul>
 
 <p align="center">
   <img src="https://i.imgur.com/WhfLdxl.png"/>
 </p>
 
+18. Click <strong>Add</strong> at the bottom of the window, then click <strong><OK/strong> at the bottom left of the CReate network security group window.
+19. 
+
+
 
 <p align="center">
-  <p>Ref 1: </p>
   <img src=""/>
-  <p></p>
 </p>
 
 <p align="center">
