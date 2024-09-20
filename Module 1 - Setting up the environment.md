@@ -172,14 +172,17 @@ We will enable the ability to gather logs from the Log Analytics Workspace.
   <img src="https://i.imgur.com/z8zHzMn.png"/>
 </p>
 
-28. Enable thse Defender Plans:
+28. Enable these Defender Plans and then click <strong>Save</strong> at the top left.:
 
 <ul>
 <li><strong>Foundational CSPM:</strong> On</li>
 <li><strong>Servers:</strong> On</li>
 <li><strong>SQL servers on machines:</strong> Off</li>    
 </ul>
-   
+
+29. Click <strong>Data collection</strong>
+
+30. 
 <p align="center">
   <img src="https://i.imgur.com/YxhHeyG.png"/>
 </p>
@@ -187,7 +190,7 @@ We will enable the ability to gather logs from the Log Analytics Workspace.
 
 
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/blVCtPs.png"/>
 </p>
 
 <p align="center">
