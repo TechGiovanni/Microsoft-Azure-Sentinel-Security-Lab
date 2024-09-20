@@ -79,7 +79,7 @@ Exercise 1: Virtual Machine setup
 <p align="center">
   <img src="https://i.imgur.com/O44N88u.png"/>
   <img src="https://i.imgur.com/JSacsny.png"/>
-  <img src="[https://i.imgur.com/O44N88u.png](https://i.imgur.com/uSM9amD.png)"/>
+  <img src="https://i.imgur.com/uSM9amD.png"/>
 </p>
 
 <p align="center">
