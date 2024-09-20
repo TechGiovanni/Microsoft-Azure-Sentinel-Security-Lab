@@ -63,19 +63,23 @@ Exercise 1: Virtual Machine setup
 </p>
 
 12. Go through the Microsoft Edge setup as we will needing access to the internet.
+13. Type in the search box <strong>wf.msc</strong> to go to <strong>Windows Defender Firewall with Advanced Security</strong>
 
 <p align="center">
-  <img src=""/>
+  <img src="blob:https://imgur.com/3ac2284a-52cb-44c4-8ce5-2fe9fcc76f3d"/>
 </p>
 
-<p align="center">
-  <img src=""/>
-</p>
+14. Click <strong>Windows Defender Firewall Properties</strong>
 
 <p align="center">
-  <p>Ref : </p>
-  <img src=""/>
-  <p></p>
+  <img src="https://i.imgur.com/4TGmpZy.png"/>
+</p>
+
+15. 
+<p align="center">
+  <img src="https://i.imgur.com/O44N88u.png"/>
+  <img src="https://i.imgur.com/JSacsny.png"/>
+  <img src="[https://i.imgur.com/O44N88u.png](https://i.imgur.com/uSM9amD.png)"/>
 </p>
 
 <p align="center">
