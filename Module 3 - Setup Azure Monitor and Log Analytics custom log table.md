@@ -61,7 +61,11 @@ Prerequisites You must have a Microsoft Azure subscription and have completed Mo
 <p align="center">
   <img src="https://i.imgur.com/I6MGlmw.png"/>
 </p>
+14. Show our VM Resource Created.
 
+<p align="center">
+  <img src="https://i.imgur.com/GOypShc.png"/>
+</p>
 
 
 
