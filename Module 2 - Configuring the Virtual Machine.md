@@ -1,5 +1,7 @@
-Module 2 - Configuring the Virtual Machine
-Objectives
+# Module 2 - Configuring the Virtual Machine
+
+### Objectives
+
 This module guides you through the process of updating the firewall, using remote Desktop Protocal (RDP) to gain access to the virtual machines desktop and using powershell script to extract Eventlogs from the virtual machine.
 
 Prerequisites You must have a Microsoft Azure subscription and have completed Module 1 as this project builds from the previous module.
