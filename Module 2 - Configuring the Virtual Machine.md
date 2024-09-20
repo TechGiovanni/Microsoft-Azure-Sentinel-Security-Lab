@@ -91,18 +91,77 @@ Exercise 1: Virtual Machine setup
 
 In this section we will use Powershell to extract the security logs that we can then use to view in our Microsoft Sentinel (SIEM).
 
-17. Go to the <a href="https://github.com/TechGiovanni/Microsoft-Azure-Sentinel-Security-Lab/blob/main/Custom_Security_Log_Exporter.ps1">Powershell Script</a> and copy the contents to <strong>Windows Powershell ISE</strong> on the virtual Machine. 
+17. Go to <strong>Windows Powershell ISE</strong> on the virtual Machine.
 
 <p align="center">
   <img src="https://i.imgur.com/istljmg.png"/>
 </p>
 
-18. 
+18. Go to the <a href="https://github.com/TechGiovanni/Microsoft-Azure-Sentinel-Security-Lab/blob/main/Custom_Security_Log_Exporter.ps1">Powershell Script</a> page and copy the contents to <strong>Windows Powershell ISE</strong> on the virtual Machine. 
 
 <p align="center">
   <img src="https://i.imgur.com/rOHkrDu.png"/>
 </p>
 
+19. Save the file to the <strong>Desktop</strong> with the name <strong></strong>
+
+<p align="center">
+  <img src=""/>
+</p>
+
+
+<p align="center">
+  <p>Ref 1: </p>
+  <img src=""/>
+  <p></p>
+</p>
+
+<p align="center">
+  <p>Ref 1: </p>
+  <img src=""/>
+  <p></p>
+</p>
+
+<p align="center">
+  <p>Ref : </p>
+  <img src=""/>
+  <p></p>
+</p>
+
+<p align="center">
+  <p>Ref : </p>
+  <img src=""/>
+  <p></p>
+</p>
+
+<p align="center">
+  <img src=""/>
+</p>
+
+
+<p align="center">
+  <p>Ref 1: </p>
+  <img src=""/>
+  <p></p>
+</p>
+
+<p align="center">
+  <p>Ref 1: </p>
+  <img src=""/>
+  <p></p>
+</p>
+
+<p align="center">
+  <p>Ref : </p>
+  <img src=""/>
+  <p></p>
+</p>
+
+<p align="center">
+  <p>Ref : </p>
+  <img src=""/>
+  <p></p>
+</p>
 
 
 
