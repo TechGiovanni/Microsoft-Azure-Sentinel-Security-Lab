@@ -19,7 +19,6 @@ Note: Installing Sentinel for the very first time in a Subscription needs Subscr
    
 <p align="center">
   <img src="https://i.imgur.com/VakkBxx.png"/>
-  <p>Ref 1: Click create to create a resource</p>
 </p>
 
 3. In the Resource group text field type a name that will be used to hold all your resources.
@@ -27,27 +26,24 @@ Note: Installing Sentinel for the very first time in a Subscription needs Subscr
 
 <p align="center">
   <img src="https://i.imgur.com/TbIEgS6.png"/>
-   <p>Ref 2: Create a resource group Basics view</p>
 </p>
 
 5. Click <strong>Review + create</strong> and then <strong>Create</strong> after the validation completes. The creation takes a few seconds.
+6. Now you will have your resource group created. Click the resource group <strong>Honeypotlab</strong>.
 
 <p align="center">
-  <p>Ref : </p>
-  <img src=""/>
-  <p></p>
+  <img src="https://i.imgur.com/Z108lSy.png"/>
 </p>
 
+7.We will be creating a Virtual machine resource. Click <strong>Create Resource</strong>
 
 <p align="center">
-  <p>Ref 1: </p>
-  <img src=""/>
-  <p></p>
+  <img src="https://i.imgur.com/Y0wfA6g.png"/>
 </p>
 
 <p align="center">
   <p>Ref 1: </p>
-  <img src=""/>
+  <img src="https://i.imgur.com/9hiJWmN.png"/>
   <p></p>
 </p>
 
