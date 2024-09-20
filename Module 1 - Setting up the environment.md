@@ -18,16 +18,19 @@ Note: Installing Sentinel for the very first time in a Subscription needs Subscr
 2. In the menu section on the left, click on Resource groups and click on Create.
    
 <p align="center">
-  <p>Ref 1: </p>
   <img src="https://i.imgur.com/VakkBxx.png"/>
+  <p>Ref 1: Click create to create a resource</p>
 </p>
 
 3. In the Resource group text field type a name that will be used to hold all your resources.
-4. 
+4. Click Region and Select a (US) West US 2
+
 <p align="center">
-  <p>Ref : </p>
-  <img src=""/>
+  <img src="https://i.imgur.com/TbIEgS6.png"/>
+   <p>Ref 2: Create a resource group Basics view</p>
 </p>
+
+5. Click <strong>Review + create</strong> and then <strong>Create</strong> after the validation completes. The creation takes a few seconds.
 
 <p align="center">
   <p>Ref : </p>
