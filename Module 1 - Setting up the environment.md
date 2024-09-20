@@ -118,23 +118,32 @@ Note: Installing Sentinel for the very first time in a Subscription needs Subscr
 
 ## Exercise 2: Create Log Analytics Workspace
 
-20. Click <strong>resource groups</strong> then click your resource group<strong>"Honeypotlab"</strong> then click <strong>Create</strong>.
-21. type log analytics
+### Objective
+
+The purpose of Log analytics is to inject logs form the virtual machine. We will also create a custom log that includes where the attackers are coming from.
+
+20. Click <strong>Resource groups</strong> then click your resource group <strong>"Honeypotlab"</strong> then click <strong>+ Create</strong>.
 
 <p align="center">
   <img src="https://i.imgur.com/gencX1b.png"/>
 </p>
 
-<p align="center">
-  <p>Ref 1: </p>
-  <img src="https://i.imgur.com/TYb0TfB.png"/>
-  <p></p>
-</p>
+21. Type log analytics, then click <strong>Create</strong> then Select <strong>Log Analytics Workspace</strong>
 
 <p align="center">
-  <p>Ref : </p>
-  <img src=""/>
-  <p></p>
+  <img src="https://i.imgur.com/TYb0TfB.png"/>
+</p>
+
+22. In the Create Log Analytics workspace fill out this:
+
+<ul>
+<li><strong>Name:</strong> log-analytics-workspace-honeypot</li>
+</ul>
+
+23. 
+
+<p align="center">
+  <img src="https://i.imgur.com/iIeIxkO.png"/>
 </p>
 
 <p align="center">
