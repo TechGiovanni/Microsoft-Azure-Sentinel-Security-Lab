@@ -106,32 +106,28 @@ In this section we will use Powershell to extract the security logs that we can 
 19. Save the file to the <strong>Desktop</strong> with the name <strong></strong>
 
 <p align="center">
+  <img src="https://i.imgur.com/zCxP7qd.png"/>
+</p>
+
+20. Signup to <a href="https://app.ipgeolocation.io/login">IPGeolocaton.io</a>. Get a freee API key.
+
+*Note:* this can be done on any computer, The VM or your Personal Computer.
+
+<p align="center">
+  <img src="https://i.imgur.com/DOOPP0I.png"/>
+</p>
+
+22. 
+<p align="center">
   <img src=""/>
 </p>
 
-
 <p align="center">
-  <p>Ref 1: </p>
   <img src=""/>
-  <p></p>
 </p>
 
 <p align="center">
-  <p>Ref 1: </p>
   <img src=""/>
-  <p></p>
-</p>
-
-<p align="center">
-  <p>Ref : </p>
-  <img src=""/>
-  <p></p>
-</p>
-
-<p align="center">
-  <p>Ref : </p>
-  <img src=""/>
-  <p></p>
 </p>
 
 <p align="center">
