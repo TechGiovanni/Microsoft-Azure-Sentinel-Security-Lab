@@ -75,21 +75,35 @@ Exercise 1: Virtual Machine setup
   <img src="https://i.imgur.com/4TGmpZy.png"/>
 </p>
 
-15. 
+15. <strong>Firewall States:</strong> Off, for Public, Private and Domain.
+16. <strong>Apply</strong> the changes then click <strong>OK</strong>.
+
 <p align="center">
   <img src="https://i.imgur.com/O44N88u.png"/>
   <img src="https://i.imgur.com/JSacsny.png"/>
   <img src="https://i.imgur.com/uSM9amD.png"/>
 </p>
 
-<p align="center">
-  <p>Ref : </p>
-  <img src=""/>
-  <p></p>
-</p>
+
+## Exercise 2. Extract Security Logs
+
+### Objective
+
+In this section we will use Powershell to extract the security logs that we can then use to view in our Microsoft Sentinel (SIEM).
+
+17. Go to the <a href="https://github.com/TechGiovanni/Microsoft-Azure-Sentinel-Security-Lab/blob/main/Custom_Security_Log_Exporter.ps1">Powershell Script</a> and copy the contents to <strong>Windows Powershell ISE</strong> on the virtual Machine. 
 
 <p align="center">
-  <p>Ref : </p>
-  <img src=""/>
-  <p></p>
+  <img src="https://i.imgur.com/istljmg.png"/>
 </p>
+
+18. 
+
+<p align="center">
+  <img src="https://i.imgur.com/rOHkrDu.png"/>
+</p>
+
+
+
+
+
