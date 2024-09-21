@@ -1,4 +1,4 @@
-## Welcome to Microsoft Sentinel Analyst Lab
+## Welcome to Microsoft Sentinel Security Analyst Lab
 <img src="https://i.imgur.com/eQ5ykGc.png"/>
 
 ### Introduction
