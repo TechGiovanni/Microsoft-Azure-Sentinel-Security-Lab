@@ -150,7 +150,7 @@ FAILED_RDP_WITH_GEO_CL
 19. Click <strong>Apply</strong> and then <strong>Save and Close</strong>.
 
 <p align="center">
-  <img src="[https://i.imgur.com/YQJFJPT.png](https://i.imgur.com/FAC9ahJ.png)"/>
+  <img src="https://i.imgur.com/FAC9ahJ.png"/>
 </p>
 
 20. Now our Map looks like this.
