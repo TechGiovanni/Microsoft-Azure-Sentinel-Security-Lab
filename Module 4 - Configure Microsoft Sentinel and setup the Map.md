@@ -106,7 +106,7 @@ Use this one line:
 
 
 17. To customize the Map, click <strong>Map Settings</strong>
-We will create a label, and a countrycount coulm and fiel to use in our map
+We will create a <strong>label</strong>, and a <strong>CountryCount</strong> column and field to use in our map settings.
 
 ```
 FAILED_RDP_WITH_GEO_CL
@@ -146,22 +146,30 @@ FAILED_RDP_WITH_GEO_CL
   <img src="https://i.imgur.com/faidQjb.png"/>
 </p>
 
+18. These are the section that were changed on the Map Settings.
+19. Click <strong>Apply</strong> and then <strong>Save and Close</strong>.
 
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/YQJFJPT.png"/>
 </p>
 
+20. Now our Map looks like this.
+21. After you did 1000 API call, you have to wait until tomorrow for another 1000, then you will see the different countries that are attacking your Virtual Machine in real-time.
 
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/IGfrwNv.png"/>
 </p>
 
-<p align="center">
-  <img src=""/>
-</p>
+22. Click the <strong>Save</strong> button at the top menue bar.
 
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/wwOeOLx.png"/>
+</p>
+
+23. Type your title, update the Resource group ad Choose the Correct Location.
+
+<p align="center">
+  <img src="https://i.imgur.com/Qzj4oeZ.png"/>
 </p>
 
 
