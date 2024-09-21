@@ -154,7 +154,9 @@ FAILED_RDP_WITH_GEO_CL
 </p>
 
 20. Now our Map looks like this.
-21. After you did 1000 API call, you have to wait until tomorrow for another 1000, then you will see the different countries that are attacking your Virtual Machine in real-time.
+21. After 1000 API call, we have to wait until tomorrow for another 1000, then you will see the different countries that are attacking your Virtual Machine in real-time.
+
+* Note: for the map to update with ne attacks, we need to make sure the Powershell script is running on the Virtual Machine, so that it can update the failed_rdp.log file. *
 
 <p align="center">
   <img src="https://i.imgur.com/IGfrwNv.png"/>
@@ -169,18 +171,23 @@ FAILED_RDP_WITH_GEO_CL
 23. Type your <strong></strong>, update the <strong></strong>Resource group ad Choose the Correct <strong></strong>.
 <ul>
 <li><strong>Title:</strong> FAILED RDP World Map</li>
-<li><strong>Resource group:</strong> Choose your resource group that you created</li>
+<li><strong>Subscription: Choose your Microsoft subscription account.</strong></li>
+<li><strong>Resource group:</strong> Choose your resource group that you've created</li>
 <li><strong>Location:</strong> (US) West US 2</li>
-<li><strong>:</strong></li>
 </ul>
 
 <p align="center">
   <img src="https://i.imgur.com/Qzj4oeZ.png"/>
 </p>
 
+24. Click the <strong>Done Editing</strong> button.
+
+<p align="center">
+  <img src="https://i.imgur.com/unKaku7.png"/>
+</p>
+
+25. Now click the <strong>X</strong> button at the top right to go back. This map can always be found by going to <strong>Microsoft Sentinel</strong>, <strong>Workkbook</strong> then selecting the Workbook we've created. There should only be one option if this lab is the only lab you followed along with so far. <strong></strong>
 
 
-
-
-
+We have completed the project. This map looks great!
 
