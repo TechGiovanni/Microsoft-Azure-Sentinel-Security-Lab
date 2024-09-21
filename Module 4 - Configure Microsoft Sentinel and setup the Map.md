@@ -166,7 +166,13 @@ FAILED_RDP_WITH_GEO_CL
   <img src="https://i.imgur.com/wwOeOLx.png"/>
 </p>
 
-23. Type your title, update the Resource group ad Choose the Correct Location.
+23. Type your <strong></strong>, update the <strong></strong>Resource group ad Choose the Correct <strong></strong>.
+<ul>
+<li><strong>Title:</strong> FAILED RDP World Map</li>
+<li><strong>Resource group:</strong> Choose your resource group that you created</li>
+<li><strong>Location:</strong> (US) West US 2</li>
+<li><strong>:</strong></li>
+</ul>
 
 <p align="center">
   <img src="https://i.imgur.com/Qzj4oeZ.png"/>
