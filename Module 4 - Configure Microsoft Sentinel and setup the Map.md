@@ -56,7 +56,7 @@ As you can see on the far right we have over 2000+ Failed RDP logons on our Virt
 This will extend the Table that we created in Log Analytics and extend columns using functions. We will also filter out null values so that we can pin point the state of each attack more precisely.
 
 Code:
-<p>
+```
 FAILED_RDP_WITH_GEO_CL
 | extend timestamp = TimeGenerated,
   latitude = toreal(extract("latitude:(.*?),", 1, RawData)),
@@ -68,7 +68,7 @@ FAILED_RDP_WITH_GEO_CL
   country = extract("country:(.*?),", 1, RawData)
 | where state != "null" and state != ""
 | project latitude, longitude, destinationhost, username, sourcehost, state, country, timestamp
-</p>
+```
 
 <p align="center">
   <img src="https://i.imgur.com/uqKp3mU.png"/>
