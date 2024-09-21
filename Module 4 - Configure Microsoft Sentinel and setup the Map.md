@@ -82,23 +82,75 @@ FAILED_RDP_WITH_GEO_CL
 We will now show specifically what we want to see on the map based on the log data table we created.
 
 
-13. Click the <strong>Map</strong> option in the dropdown under Visualization.
-14. Then under <strong>Size</strong>, choose the one that is appropriate to your liking.
+13. Click the <strong>Map</strong> option in the dropdown under <strong>Visualization</strong>.
+14. Under the <strong>Size</strong> option, choose the one that is appropriate to your liking.
 
 <p align="center">
   <img src="https://i.imgur.com/3ky8ZqP.png"/>
 </p>
 
-15. Now we see we have an attacker in the ocean, This is a <strong>samplehost</strong> under <strong>destinationhost</strong>, from russia, so we will filter this attacker out of our map.
+15. Now we see we have an attacker in the ocean, This is a <strong>samplehost</strong> under <strong>destinationhost</strong>, from <strong>Russia</strong>, so we will filter this attacker out of our map.
 
 Use this one line: 
-| where country != "Russia" and destinationhost != "sample"
-    
+<p>| where country != "Russia" and destinationhost != "sample"</p>
+
 <p align="center">
   <img src="https://i.imgur.com/6FNVX33.png"/>
 </p>
 
-16. Now we will 
+16. Now we will see our map updated.
+
+<p align="center">
+  <img src="https://i.imgur.com/xca7mHa.png"/>
+</p>
+
+
+17. To customize the Map, click <strong>Map Settings</strong>
+We will create a label, and a countrycount coulm and fiel to use in our map
+
+```
+FAILED_RDP_WITH_GEO_CL
+| extend 
+    timestamp = TimeGenerated,
+    latitude = toreal(extract("latitude:(.*?),", 1, RawData)),
+    longitude = toreal(extract("longitude:(.*?),", 1, RawData)),
+    destinationhost = extract("destinationhost:(.*?),", 1, RawData),
+    username = extract("username:(.*?),", 1, RawData),
+    sourcehost = extract("sourcehost:(.*?),", 1, RawData),
+    state = extract("state:(.*?),", 1, RawData),
+    label = extract("label:(.*?),", 1, RawData),
+    country = extract("country:(.*?),", 1, RawData)
+| where state != "null" and state != ""
+| where country != "Russia" and destinationhost != "sample"
+| summarize CountryCount = count() by country
+| join kind=inner (
+    FAILED_RDP_WITH_GEO_CL
+    | extend 
+        timestamp = TimeGenerated,
+        latitude = toreal(extract("latitude:(.*?),", 1, RawData)),
+        longitude = toreal(extract("longitude:(.*?),", 1, RawData)),
+        destinationhost = extract("destinationhost:(.*?),", 1, RawData),
+        username = extract("username:(.*?),", 1, RawData),
+        sourcehost = extract("sourcehost:(.*?),", 1, RawData),
+        state = extract("state:(.*?),", 1, RawData),
+        label = extract("label:(.*?),", 1, RawData),
+        country = extract("country:(.*?),", 1, RawData)
+    | where state != "null" and state != ""
+    | project latitude, longitude, destinationhost, username, sourcehost, state, label, country, timestamp
+) on country
+| project latitude, longitude, destinationhost, username, sourcehost, state, label, country, timestamp, CountryCount
+```
+
+
+<p align="center">
+  <img src="https://i.imgur.com/faidQjb.png"/>
+</p>
+
+
+<p align="center">
+  <img src=""/>
+</p>
+
 
 <p align="center">
   <img src=""/>
@@ -107,4 +159,14 @@ Use this one line:
 <p align="center">
   <img src=""/>
 </p>
+
+<p align="center">
+  <img src=""/>
+</p>
+
+
+
+
+
+
 
