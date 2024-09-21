@@ -55,6 +55,7 @@ As you can see on the far right we have over 2000+ Failed RDP logons on our Virt
 
 This will extend the Table that we created in Log Analytics and extend columns using functions. We will also filter out null values so that we can pin point the state of each attack more precisely.
 
+Code:
 <p>
 FAILED_RDP_WITH_GEO_CL
 | extend timestamp = TimeGenerated,
@@ -81,18 +82,29 @@ FAILED_RDP_WITH_GEO_CL
 We will now show specifically what we want to see on the map based on the log data table we created.
 
 
-13. Click .
+13. Click the <strong>Map</strong> option in the dropdown under Visualization.
+14. Then under <strong>Size</strong>, choose the one that is appropriate to your liking.
+
+<p align="center">
+  <img src="https://i.imgur.com/3ky8ZqP.png"/>
+</p>
+
+15. Now we see we have an attacker in the ocean, This is a <strong>samplehost</strong> under <strong>destinationhost</strong>, from russia, so we will filter this attacker out of our map.
+
+Use this one line: 
+| where country != "Russia" and destinationhost != "sample"
+    
+<p align="center">
+  <img src="https://i.imgur.com/6FNVX33.png"/>
+</p>
+
+16. Now we will 
 
 <p align="center">
   <img src=""/>
 </p>
 
-
 <p align="center">
   <img src=""/>
 </p>
-
-
-
-
 
