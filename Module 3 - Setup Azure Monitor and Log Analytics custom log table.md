@@ -69,7 +69,7 @@ Prerequisites You must have a Microsoft Azure subscription and have completed Mo
 
 
 
-## Exercise 2: Create Custom Log using Log Analytics
+## Exercise 2: Create a Custom Log using Log Analytics
 
 ### Objective
 
@@ -164,58 +164,14 @@ In our log search, the <strong>_CL</strong> will automatically be appended at th
 
 23. Click <strong>Logs</strong>.
 24. Click the <strong>X</strong> for the pop up windows.
+25. Type FAILED_RDP_WITH_GEO_CL in the query field and select run.
+
+26. Now we should see our logs coming in.
 
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/VWKZFgi.png"/>
 </p>
 
-
-<p align="center">
-  <img src=""/>
-</p>
-
-<p align="center">
-  <img src=""/>
-</p>
-
-<p align="center">
-  <img src=""/>
-</p>
-
-
-<p align="center">
-  <img src=""/>
-</p>
-
-
-<p align="center">
-  <img src=""/>
-</p>
-
-<p align="center">
-  <img src=""/>
-</p>
-
-<p align="center">
-  <img src=""/>
-</p>
-
-
-<p align="center">
-  <img src=""/>
-</p>
-
-
-<p align="center">
-  <img src=""/>
-</p>
-
-<p align="center">
-  <img src=""/>
-</p>
-
-<p align="center">
-  <img src=""/>
-</p>
-
+Thats it for this module!
+We will now setup Microsoft Sentinel to ingest the logs and Extend to fields to input the extracted Raw Data.
 
